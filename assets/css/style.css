@@ -694,6 +694,7 @@
           }
           .skills {
               margin-top: 12%;
+              
           }
           .left {
               height: 50%;
@@ -851,6 +852,12 @@
               height: 140%;
               width: 98%;
           }
+             .section {
+              height: fit-content;
+          }
+             .about {
+              height: fit-content;
+              }
           .about-text {
               height: fit-content;
               width: 550px;
@@ -869,6 +876,9 @@
               margin-top: 15px;
               width: 300px;
           }
+            .services{
+                  height:fit-content;
+            }
           .services .content .boxes {
               margin: 20px auto;
               display: inline-flex;
@@ -899,6 +909,9 @@
               width: 95%;
               padding: 30px;
           }
+            .contact{
+                  height:fit-content;
+            }
           .contact .content .text {
               height: fit-content;
               color: white;
@@ -1039,6 +1052,9 @@
               flex-wrap: wrap;
               height: 300px;
           }
+            .services{
+                  height:fit-content;
+            }
           .services .content .box {
               width: 95%;
               padding: 30px;
