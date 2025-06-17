@@ -625,7 +625,7 @@
           color: #5DF9AE;
       }
       
-       @media (max-width: 1024px) {
+      @media (max-width: 1024px) {
           body {
               overflow-x: hidden;
               width: 100%;
