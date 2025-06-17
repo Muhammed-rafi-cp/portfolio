@@ -1087,7 +1087,8 @@
               padding: 8%;
           }
       }
-@media (min-width: 480px) and (max-width: 767px) {
+  
+      @media (min-width: 480px) and (max-width: 767px) {
           .section {
               height: fit-content;
           }
