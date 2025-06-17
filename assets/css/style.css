@@ -625,7 +625,7 @@
           color: #5DF9AE;
       }
       
-      @media (max-width: 1024px) {
+       @media (max-width: 1024px) {
           body {
               overflow-x: hidden;
               width: 100%;
@@ -676,25 +676,28 @@
               height: 2.5rem;
               font-size: 1.5rem;
           }
+          .btn {
+              margin-top: 2.5%;
+          }
           .main-container .image {
               z-index: -1;
-              width: 40%;
+              width: 30%;
               height: 420px;
+              margin-bottom: 0px;
           }
           .main-container .btn button {
               margin: 30px 0px 30px 0px;
           }
           .main-container .image img {
-              height: 500px;
-              width: 98%;
+              height: 450px;
+              width: 100%;
           }
           .about {
               height: fit-content;
-              margin-top: 12%;
+              margin-top: 25%;
           }
           .skills {
               margin-top: 12%;
-              
           }
           .left {
               height: 50%;
@@ -852,12 +855,6 @@
               height: 140%;
               width: 98%;
           }
-             .section {
-              height: fit-content;
-          }
-             .about {
-              height: fit-content;
-              }
           .about-text {
               height: fit-content;
               width: 550px;
@@ -876,9 +873,6 @@
               margin-top: 15px;
               width: 300px;
           }
-            .services{
-                  height:fit-content;
-            }
           .services .content .boxes {
               margin: 20px auto;
               display: inline-flex;
@@ -909,9 +903,6 @@
               width: 95%;
               padding: 30px;
           }
-            .contact{
-                  height:fit-content;
-            }
           .contact .content .text {
               height: fit-content;
               color: white;
@@ -1052,9 +1043,6 @@
               flex-wrap: wrap;
               height: 300px;
           }
-            .services{
-                  height:fit-content;
-            }
           .services .content .box {
               width: 95%;
               padding: 30px;
@@ -1087,7 +1075,8 @@
               padding: 8%;
           }
       }
-  
+      /* Fix for 480px to 767px (small devices and phones in landscape) */
+      
       @media (min-width: 480px) and (max-width: 767px) {
           .section {
               height: fit-content;
